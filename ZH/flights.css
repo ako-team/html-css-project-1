@@ -1,0 +1,36 @@
+select {
+  background-color: #841e62;
+  height: 40px;
+  font-size: 20px;
+  border: #346b6d 2px solid;
+}
+button:hover {
+  background-color: #346b6d;
+}
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+div {
+  padding-left: 200px;
+  padding-top: 70px;
+  background-image: url(https://ei.marketwatch.com/Multimedia/2019/02/25/Photos/ZH/MW-HE536_airpla_20190225131547_ZH.jpg?uuid=5fa81d1a-3929-11e9-9462-ac162d7bc1f7);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.h2 {
+  padding-left: 50px;
+  background-color: #346b6d;
+  margin-left: 30px;
+}
+@media (max-width: 700px) {
+  div {
+    height: 300px;
+    width: 550px;
+  }
+}

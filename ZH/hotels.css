@@ -1,0 +1,42 @@
+select {
+  background-color: #841e62;
+  height: 40px;
+  font-size: 20px;
+  border: #346b6d 2px solid;
+}
+button:hover {
+  background-color: #346b6d;
+}
+button {
+  width: 90px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+.h2 {
+  padding-left: 50px;
+  background-color: #346b6d;
+  margin-left: 30px;
+}
+div {
+  padding: 70px;
+}
+ul {
+  list-style: none;
+}
+h3 {
+  display: inline;
+  font-style: italic;
+}
+img {
+  width: 400px;
+  border: #841e62 5px double;
+  box-shadow: #f3aa20 10px 10px 20px;
+}
+@media (max-width: 700px) {
+  img {
+    width: 300px;
+  }
+}
