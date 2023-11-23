@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "sans";
+  src: url("sans.ttf");
+}
+
+body {
+  font-family: "sans";
+  direction: ltr;
+}
+
+::placeholder,
+input {
+  font-family: "sans";
+}
+
+.table {
+  width: 500px;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+td {
+  padding: 8px;
+  border: 1px solid black;
+}
+
+td.right-align {
+  text-align: right;
+  width: 350px;
+}
+
+.center-button {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+}
+
+.styleee {
+  width: 500px;
+  border: 1px;
+  text-align: "right";
+}
+
+.form1 {
+  width: 50%;
+  margin: auto;
+  margin-right: auto;
+}
+
+fieldset {
+  margin-top: 30px;
+  border-color: black;
+}
+
+fieldset {
+  width: 449px;
+  height: 418px;
+  margin-top: 30px;
+  border: 1px solid black;
+  background-image: url("../image/thVQEGQ6AF.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
