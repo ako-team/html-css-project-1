@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'sans';
+    src: url("sans.ttf");
+}
+
+body {
+    font-family: 'sans';
+    direction: ltr;
+    background-color: #74b9ff;
+}
+
+::placeholder,
+input {
+    font-family: 'sans';
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.login h1 {
+    color: #fff;
+    margin: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid gray;
+    font-size: 30px;
+    transition: 1s;
+}
+
+.login h1:hover {
+    border-color: #fff;
+    font-size: 35px;
+}
+
+.login input[type="text"],
+[type="password"] {
+    margin: 20px;
+    padding: 10px 14px;
+    width: 250px;
+    border-radius: 24px;
+    border: 1px solid #6c5ce7;
+    transition: 0.5s;
+}
+
+.login input[type="submit"] {
+    margin: 20px;
+    padding: 10px 14px;
+    width: 100px;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 24px;
+    border: 1px solid #6c5ce7;
+    transition: 0.7s;
+}
+
+.login input[type="submit"]:hover {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+label {
+    color: #fff;
+}
+
+.login input[type="text"]:focus,
+input[type="password"]:focus {
+    width: 300px;
+}

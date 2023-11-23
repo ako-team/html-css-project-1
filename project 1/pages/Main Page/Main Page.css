@@ -1,0 +1,40 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #83b1d7; */
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: block;
+}
+
+a {
+  color: blue;
+  text-align: center;
+  text-decoration: none;
+  padding: 7px 9px;
+}
+
+a:hover:not(.active) {
+  background-color: #ebf02a;
+}
+
+.active {
+  background-color: #4caf50;
+}
+
+.p2 {
+  background-image: url(mazda-RX7-wallpaper.jpg);
+  width: 700px;
+  height: 200px;
+}
+
+div {
+  text-align: center;
+}
