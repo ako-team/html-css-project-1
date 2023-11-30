@@ -1,0 +1,334 @@
+
+:root {
+
+    --background-color: black ;
+}
+
+
+
+
+.as {
+    background-image: url(https://apod.nasa.gov/apod/image/2301/ISS_TIANHE_FINAL_4_APOD.jpg);
+    color: #dfabab;
+    font-style: italic;
+    border: 8px dashed rgb(253, 240, 240);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.kts {
+
+    border: 5px solid rgb(250, 248, 248);
+    color: azure;
+    border-radius: 10em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+* {
+
+    background-color: rgb(1, 19, 2);
+}
+
+.sa {
+
+    width: 850px;
+    height: 1000px;
+    border: solid 3px powderblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 170px;
+    margin-left: 20px;
+    background-image: url(https://apod.nasa.gov/apod/image/2301/ISS_TIANHE_FINAL_4_APOD.jpg);
+    position: absolute;
+    cursor: cell;
+
+}
+
+
+.sb {
+
+    width: 200px;
+    height: 210px;
+    border: solid 2px;
+    box-shadow: white 10px 10px 10px;
+    background-image: url(https://dkstatics-public.digikala.com/digikala-products/9a06dcb63d9ef49a5dfbac20923be443dd069dc4_1605526243.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/format,webp/quality,q_90);
+    background-size: 200px 210px;
+}
+
+.sc {
+
+    width: 200px;
+    height: 210px;
+    border: solid 2px;
+    width: 200px;
+    height: 210px;
+    box-shadow: white 10px 10px 10px;
+    background-size: 200px 210px;
+
+}
+
+.sd {
+
+    width: 200px;
+    height: 210px;
+    box-shadow: white 10px 10px 10px;
+    border: solid 2px;
+}
+
+.se {
+
+    width: 200px;
+    height: 210px;
+    box-shadow: white 10px 10px 10px;
+    border: solid 2px;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+
+.sf {
+
+    width: 400px;
+    height: 950px;
+    position: relative;
+    border: #ca0e0e solid;
+    bottom: -25px;
+    margin-left: 550px;
+    background-color: rgb(240, 234, 234);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.sg {
+
+    width: 200px;
+    height: 210px;
+    border: dotted 2px;
+    background-color: var(--background-color);
+}
+
+.sh {
+
+    width: 200px;
+    height: 210px;
+    border: dotted 2px;
+    background-color: var(--background-color);
+}
+
+.si {
+
+    width: 200px;
+    height: 210px;
+    border: dotted 2px;
+    background-color: var(--background-color);
+}
+
+.sj {
+
+    width: 200px;
+    height: 210px;
+    border: dotted 2px;
+    background-color: var(--background-color);
+}
+
+
+a {
+    color: red;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+p {
+
+    color: rgb(20, 20, 2);
+    background-color: rgb(240, 255, 27);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.ga {
+
+    position: absolute;
+}
+
+
+.parent {
+
+    width: 850px;
+    height: 900px;
+    border: solid 3px powderblue;
+    padding-left: 170px;
+    margin-left: 20px;
+    box-sizing: content-box;
+    position: relative;
+
+
+
+}
+
+.child-1 {
+
+    width: 900px;
+    height: 100px;
+    text-align: right;
+    font: italic bold 16px/2 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    left: 20px;
+    color: #dfabab;
+}
+
+.child-2 {
+
+    color: #dfabab;
+    position: absolute;
+    bottom: 90px;
+    text-align: left;
+    font: italic bold 16px/2 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: absolute;
+    left: 20px;
+
+
+}
+
+.child-3 {
+
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    bottom: 850px;
+    left: 160px;
+    color: #ca0e0e;
+    z-index: 1;
+    font-size: 50px;
+}
+
+.child-4 {
+
+    width: 450px;
+    height: 50px;
+    position: absolute;
+    bottom: 450px;
+    left: 390px;
+    color: #ca0e0e;
+    z-index: 1;
+    font-size: 70px;
+}
+
+.ggg {
+
+    width: 450px;
+    height: 80px;
+    border: solid red;
+    color: aliceblue;
+    text-align: left;
+    position: absolute;
+    left: 500px;
+    top: 350px;
+    z-index: 4;
+    padding-left: 35px;
+}
+
+.b1 {
+    background-color: blue;
+    color: azure;
+    position: absolute;
+    left: 265px;
+    top: 45px;
+    z-index: 5;
+
+}
+
+input {
+    background-color: blue;
+    color: beige;
+    position: absolute;
+    left: 257px;
+    top: 15px;
+    z-index: 5;
+}
+
+#fa {
+
+    color: aliceblue;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+
+
+
+}
+
+.dt{
+
+position: relative;
+color: white;
+border: #ca0e0e 5px dashed;
+text-align: center;
+padding: 5px;
+margin-bottom: 10px;
+
+
+}
+
+.ll{
+
+    color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ta{
+
+    color: var(--background-color);
+    margin-left: 150px;
+    background-color: white;
+   
+    
+}
+
+.b2{
+
+    position: relative;
+    bottom: 15px;
+    background-color: red;
+
+   
+
+}
+
+
+
